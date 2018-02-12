@@ -34,7 +34,7 @@ public class RecipeServiceImplTest {
 
     @Test
     public void getRecipes() throws Exception {
-
+        //Test comment to trigger Circle CI
         Recipe recipe = new Recipe();
         HashSet receipesData = new HashSet();
         receipesData.add(recipe);
